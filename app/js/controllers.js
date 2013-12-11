@@ -98,7 +98,7 @@ angular.module('myApp.controllers', []).
   }])
 
   .controller('ExcursionSelect', ['$scope','$routeParams','$location', '$route', function($scope,$routeParams, $location, $route) {
-	var priceIndex = parseInt($routeParams['price']) ? parseInt($routeParams['price']) : 4;
+	var priceIndex = parseInt($routeParams['price']) || parseInt($routeParams['price']) ===0 ? parseInt($routeParams['price']) : 4;
 
 	$scope.price = PRICES[priceIndex]
 

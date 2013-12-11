@@ -148,7 +148,7 @@
         "StartDate": "01/05/2013",
         "Url": "http://www.thomsonexcursions.co.uk/excursions-details/MEX/Mexico/000577/Caribbean-Coast/001227/Cancun/1008987905/Snorkel-at-Cozumel.aspx",
         "images": [
-            
+            "http://www.fantasytravelexperts.com/sites/default/files/snorkel-cozumel-3.jpg"
         ],
         "type" : "adveturous, fun"
     },
@@ -879,7 +879,9 @@
             "http://media.thomson.co.uk/asset/lpp/v01/016/723.jpg",
             "http://media.thomson.co.uk/asset/lpp/v01/016/725.jpg",
             "http://media.thomson.co.uk/asset/lpp/v01/016/725.jpg"
-        ]
+        ],
+        "type": "relaxing, fun"
+
     },
     {
  
@@ -907,7 +909,7 @@
                 "Text": "Delfines is about the only beach with a public car park; unfortunately, its sand is coarser and darker than the exquisite fine sand of the more northerly beaches. On the upside, the beach has great views, there are some nearby Maya Ruins to check out and, as the last beach along the boulevard, it is rarely crowded. Heed the signs regarding swimming conditions as undertows are common here. "
             }
         ],
-        "OperationDays": "",
+        "OperationDays": "daily",
         "Ranking": "",
         "ResortHelplineNumber": "",
         "ResortName": "Cancun",
@@ -918,7 +920,7 @@
             "http://gobluetours.com/wp-content/uploads/2012/10/PlayaDelfinesCancunMexico.jpg",
             "http://media.lonelyplanet.com/lpi/5170/5170-21/681x454.jpg"
         ],
-        "type": "relax"
+        "type": "relaxing"
     },
     {
         "id" : 25,
@@ -945,7 +947,7 @@
                 "Text": "This lively swathe of sand runs the full length of town. The whole place is backed by hotels, beach clubs and drinking dens, so you won’t have far to go when you fancy a Corona. Most places keep their doors open well into the evening, with the volume increasing with each hour that passes."
             }
         ],
-        "OperationDays": "",
+        "OperationDays": "daily",
         "Ranking": "",
         "ResortHelplineNumber": "",
         "ResortName": "Cancun",
@@ -953,7 +955,8 @@
         "Url": "http://www.thomson.co.uk/destinations/attraction/Caribbean-Coast/Set-up-camp-on-Playa-del-Carmen-Beach-999512",
         "images": [
             "http://newmedia.thomson.co.uk/live/vol/0/de50a44742041f71d1adc5281e92b28a0225fa57/1080x608/web/CARIBBEANMEXICOMEXICOCON_MEXMEXICO-CARIBBEANCOASTPLAYADELCARMENRES_002648.jpg"
-        ]
+        ],
+        "type":"relaxing"
     },
     {
         "id" : 26,
@@ -980,7 +983,7 @@
                 "Text": "Day of the Dead is up there with New Year’s Eve in terms of big Mexican blow-outs. The holiday dates back to indigenous times, and the idea behind it is to remember dearly departed friends and family. You’ll find celebrations going on around every street corner in all the main towns, with plenty in the way of prayers, music performances and dancing."
             }
         ],
-        "OperationDays": "",
+        "OperationDays": "daily",
         "Ranking": "",
         "ResortHelplineNumber": "",
         "ResortName": "Cancun",
@@ -1017,7 +1020,7 @@
                 "Text": "This beach is hidden away in a sleepy fishing village, a half-hour drive from Cancun. When you’re not horizontal on the footprint-free sands, take a walk along the promenade where some nice little restaurants serve the day’s catch."
             }
         ],
-        "OperationDays": "",
+        "OperationDays": "daily",
         "Ranking": "",
         "ResortHelplineNumber": "",
         "ResortName": "Cancun",
@@ -1026,6 +1029,6 @@
         "images": [
             "http://newmedia.thomson.co.uk/live/vol/0/ea36c2f9cb2ba3bcc8bcee57071f734d0bf58aa9/1080x608/web/CARIBBEANMEXICOMEXICOCON_MEXMEXICO-CARIBBEANCOASTMEXICORESORTSLAZEAWAYTHEHOURSONPUERTOMORELOSBEACH.jpg"
         ],
-        "type": "relax"
+        "type": "relaxing, romantic"
     }
 ]

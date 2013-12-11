@@ -1,6 +1,21 @@
 /* app css stylesheet */
 
+@font-face {
+    font-family: 'tuitypelightregular';
+    src: url('tuitypelight-webfont.eot');
+    src: url('tuitypelight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tuitypelight-webfont.woff') format('woff'),
+         url('tuitypelight-webfont.ttf') format('truetype'),
+         url('tuitypelight-webfont.svg#tuitypelightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+body{
+  font-family:'tuitypelightregular';
+  margin:20px 15px 15px 15px;
+}
 
 .menu {
   list-style: none;
@@ -123,4 +138,11 @@ body{
 .homeWeather .weatherIcon{
   position:absolute;
   left:93px;
+}
+
+.btn, .btn:hover{
+ background-color:#092a5f;
+ color:white;
+ border:none;padding: 3px;
+margin: 2px;
 }
