@@ -14,13 +14,13 @@
 
 body{
   font-family:'tuitypelightregular';
-  margin-top:20px;
   max-width: 320px;
   color:white;
 }
 .inbody{
 	padding-left:15px;
 	padding-right:15px;
+	padding-top:80px;
 }
 .menu {
   list-style: none;
@@ -186,11 +186,28 @@ display:none;
 }
 
 .nav-bar {
-	height:50px;
+	height:70px;
 	background-image : url("../img/navbg.png");
-	background-size: 320px 50px;
+	background-size: 320px 70px;
+	position:fixed;
+	top:0;
+	left:0;
+	width:320px;
+	z-index:1500;
 }
-
+.back {
+	color:#fff;
+	font-size:14px;
+	margin-top:20px;
+	line-height: 50px;
+	display:block;
+	margin-left:15px;
+	text-transform:uppercase;
+}
+.back:hover{
+	text-decoration:none;
+	color : #fff;
+}
 
 
 .excursion.ng-enter, .slide.ng-leave {
