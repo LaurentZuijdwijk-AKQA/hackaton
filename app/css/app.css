@@ -49,8 +49,8 @@ body{
 }
 
 .excursion h2, .excursion h2 a{
-  font-size:20px;
-  color:#fff;
+  font-size: 25px;
+color: #092a5e;
 }
 
 
@@ -182,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 
-.excursion.ng-enter, .slide.ng-leave {
+.excursion.ng-enter, .excursion.ng-leave, .excursion.ng-show,  .excursion.ng-hide{
   -webkit-transition: 180ms linear all;
   transition:180ms linear all;
   position:relative;
@@ -196,13 +196,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   -webkit-transition-duration: 0s;
   transition-duration: 0s;
 }
+
 .excursion.ng-enter {
-opacity:0;
-left:320px;
+  opacity:0;
+  left:320px;
+ }
+
+.excursion.ng-enter {
+  opacity:0;
+  left:320px;
  }        /* starting animations for enter */
 .excursion.ng-enter-active {
-opacity:1;
-left:0px;
+  opacity:1;
+  left:0px;
  } /* terminal animations for enter */
 .excursion.ng-leave {
  }        /* starting animations for leave */

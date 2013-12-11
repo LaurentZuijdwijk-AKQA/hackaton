@@ -90,10 +90,12 @@ angular.module('myApp.controllers', []).
   }])
 
   .controller('Excursion', ['$scope','$routeParams', function($scope,$routeParams) {
+	$scope.show = false;
+
 	$.getJSON('data.js', function(data){
+		$scope.show = true;
 		$scope.excursion = data[$routeParams.id];
 		$scope.$apply();
-
 	});
   }])
 
