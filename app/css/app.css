@@ -85,8 +85,8 @@ width : 320px;
 width:100%;
 height:100%;
  position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 
     background: -moz-linear-gradient(top, rgba(0,0,0,0) 37%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 94%, rgba(0,0,0,0.5) 99%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(37%,rgba(0,0,0,0)), color-stop(70%,rgba(0,0,0,0)), color-stop(94%,rgba(0,0,0,0.5)), color-stop(99%,rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
@@ -108,7 +108,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   font-size: 14px;
   font-weight: normal;
 }
-.image .location,{
+.image .location{
   position: absolute;
   bottom: 5px;
   right: 0px;
