@@ -1,38 +1,30 @@
 <div class="nav-bar"></div>
 <div class="inbody">
 <div class="homeWeather">
-<span class="val left top max">{{weather.min}}&#176;C</span>
-<span class="val left bottom min">{{weather.max}}&#176;C</span>
-
-
-<span class="val right top wind">{{weather.wind}}</span>
-<span class="val right bottom water">{{weather.water}}&#176;C</span>
-
-	<img src="img/sun.png" class="weatherIcon">
-
-	<h1>Good news... looks like sun, 
-plan your perfect day</h1>
+	<h1 >Good morning Martin. What would you like to do on this 28°C rainy day?</h1>
 </div>
-        <div  ng-include="'partials/select.html'"></div>
+    <div  ng-include="'partials/select.html'"></div>
 
-<div class="excursionsList">
-
-
-
-
-	<p>Number of matches {{excursions.length}}</p>
-
+	<div class="excursionsList">
 	<div class="excursion"  ng-animate="'excursionsAnimate'" ng-repeat="excursion in excursions">
 		
-		<h2><a ng-href="index.html#/excursion/{{excursion.id}}">{{excursion.ExcursionName}}</a></h2>
 		<div class="image">
 			<img ng-src="{{excursion.images[0]}}" />
 			<a ng-href="index.html#/excursion/{{excursion.id}}"><div class="overlay"></div></a>
-			<h3 class="price">Adult £ {{excursion.AdultPrice}}</h3>
+			<h3 class="price">ADULT £{{excursion.AdultPrice}}</h3>
 			<span class="location">foto by @R_Fenn, yesterday</span>
 		</div>
-		<p>{{excursion.OBJ_Description[0].Text  | limitTo:200 }}</p>
-
+		<h2><a ng-href="index.html#/excursion/{{excursion.id}}">{{excursion.ExcursionName}}</a></h2>
+		<p>Happening {{excursion.OperationDays}}</p>
+		<hr>
 	</div>
 </div>
 </div>
+
+<script>
+	$( document ).ready( function(){
+		$('homeWeather h1').removeClass('hide');
+		console.log('awefawe')
+	} )
+
+</script>

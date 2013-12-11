@@ -105,7 +105,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   padding: 7px;
   margin: 0px;
   color: white;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: normal;
 }
 .image .location,{
@@ -135,15 +135,14 @@ width: 320px;
 
 .homeWeather{
   width:290px;
-  height:200px;
+
   position:relative;
-display:none;
+
 }
 .homeWeather h1{
-  position: relative;
-  font-size: 20px;
+  font-size: 32px;
   text-align: center;
-  top: 140px;
+
 }
 .homeWeather .val{
   font-size:17px;
@@ -179,7 +178,6 @@ display:none;
 }
 
 .excusionSelect{
-  background-color: rgba(0,0,0,0.3);
 }
 
 .view-enter, .view-leave {
@@ -252,6 +250,17 @@ display:none;
 	color : #fff;
 }
 
+hr{
+  border: 0;
+color: #092a5e;
+background-color: #092a5e;
+height: 1px;
+}
+
+.excursion p{
+  font-size:16px;
+  color:#092a5e;
+}
 
 .excursion.ng-enter, .excursion.ng-leave, .excursion.ng-show,  .excursion.ng-hide{
   -webkit-transition: 180ms linear all;
@@ -259,7 +268,7 @@ display:none;
   position:relative;
 }
 .excursion.ng-enter-stagger{
-    -webkit-transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
  
   /* in case the stagger doesn't work then these two values
@@ -285,3 +294,12 @@ display:none;
  }        /* starting animations for leave */
 .excursion.ng-leave-active { } /* terminal animations for leave */
 
+h1{
+   -webkit-transition: 180ms linear all;
+  transition:180ms linear all;
+}
+.downArrow{
+  position: relative;
+  left: 128px;
+  margin-bottom: 13px;
+}
