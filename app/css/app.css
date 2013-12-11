@@ -16,6 +16,7 @@ body{
   font-family:'tuitypelightregular';
   max-width: 320px;
   color:white;
+overflow-x:hidden;
 }
 .inbody{
 	padding-left:15px;
@@ -54,7 +55,10 @@ body{
 
 .excursion h2, .excursion h2 a{
   font-size: 25px;
-color: #092a5e;
+  color: #092a5e;
+}
+.excursion p{
+	color: #092a5e;
 }
 
 .image{
@@ -146,16 +150,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 
 .homeWeather{
-  width:290px;
-  height:200px;
+	width: 290px;
   position:relative;
-display:none;
+
 }
 .homeWeather h1{
-  position: relative;
   font-size: 20px;
   text-align: center;
-  top: 140px;
 }
 .homeWeather .val{
   font-size:17px;
