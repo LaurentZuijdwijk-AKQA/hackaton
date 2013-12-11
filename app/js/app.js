@@ -13,7 +13,7 @@ angular.module('myApp', [
   'myApp.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/', {templateUrl: 'partials/home.html', controller: 'ExcursionsList'});
+  $routeProvider.when('/home', {templateUrl: 'partials/home.html', controller: 'ExcursionsList'});
   $routeProvider.when('/excursions', {templateUrl: 'partials/excursionsList.html', controller: 'ExcursionsList'});
   $routeProvider.when('/excursion/:id', {templateUrl: 'partials/excursion.html', controller: 'Excursion'});
   $routeProvider.when('/panorama', {templateUrl: 'partials/panorama.html'});
