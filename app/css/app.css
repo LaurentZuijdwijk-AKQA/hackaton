@@ -297,4 +297,5 @@ display:none;
 .excursion.ng-leave-active { } /* terminal animations for leave */
 
 .downArrow{position: relative;
+  margin-bottom:10px;
 left: 127px;}
