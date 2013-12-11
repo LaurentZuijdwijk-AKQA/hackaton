@@ -133,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .imagebig .location {
   position: absolute;
-  bottom: 0px;
+  bottom: 5px;
   text-align:center;
   padding: 7px;
   margin: 0px;
