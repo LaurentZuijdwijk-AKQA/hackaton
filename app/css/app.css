@@ -17,7 +17,10 @@ body{
   margin-top:20px;
   max-width: 320px;
 }
-
+.inbody{
+	padding-left:15px;
+	padding-right:15px;
+}
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -58,10 +61,10 @@ body{
 .image{
   position: relative;
   display: inline-block;
-  max-width:320px;
+  max-width:290px;
 }
 .image img {
-    max-width:320px;
+    max-width:290px;
 }
 
 .image .overlay{
@@ -104,9 +107,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 
 .homeWeather{
-  width:320px;
+  width:290px;
   height:200px;
   position:relative;
+display:none;
 }
 .homeWeather h1{
   position: relative;
@@ -173,4 +177,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .view-leave.view-leave-active {
   left:-100px;
   opacity:0;
+}
+.nav-bar {
+	height:50px;
+	background-image : url("../img/navbg.png");
+	background-size: 320px 50px;
 }
