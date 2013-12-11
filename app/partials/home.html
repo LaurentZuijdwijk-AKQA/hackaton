@@ -24,15 +24,15 @@ plan your perfect day</h1>
 
 	<div class="excursion"  ng-animate="'excursionsAnimate'" ng-repeat="excursion in excursions">
 		
-		<h2><a ng-href="index.html#/excursion/{{excursion.id}}">{{excursion.ExcursionName}}</a></h2>
 		<div class="image">
 			<img ng-src="{{excursion.images[0]}}" />
 			<a ng-href="index.html#/excursion/{{excursion.id}}"><div class="overlay"></div></a>
-			<h3 class="price">Adult £ {{excursion.AdultPrice}}</h3>
+			<h3 class="price">ADULT £{{excursion.AdultPrice}}</h3>
 			<span class="location">foto by @R_Fenn, yesterday</span>
 		</div>
-		<p>{{excursion.OBJ_Description[0].Text  | limitTo:200 }}</p>
-
+		<h2><a ng-href="index.html#/excursion/{{excursion.id}}">{{excursion.ExcursionName}}</a></h2>
+		<p>Happening {{excursion.OperationDays}}</p>
+		<hr>
 	</div>
 </div>
 </div>
