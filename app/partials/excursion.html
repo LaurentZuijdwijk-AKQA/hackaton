@@ -1,19 +1,18 @@
-<div class="nav-bar">
+<div class="nav-bar nav-empty">
 	<a href="/app/index.html#/excursions" class="back">back</a>
+	<div class="nav-title">{{excursion.ExcursionName}}</div>
 </div>
-<div class="inbody">
+<div style="padding-top:70px">
 
 <div class="excursion" ng-show="true" ng-animate="'mycss-animation'" >
 
-	
-	<h2>{{excursion.ExcursionName}}</h2>
-	<div class="image"> 
-		<img ng-src="{{excursion.images[0]}}" />
+	<div class="imagebig"> 
+		<img ng-src="{{excursion.images[0]}}"  />
 		<a href="#/panorama"><div class="overlay"></div></a>
-		<h3 class="price">Adult £ {{excursion.AdultPrice}}</h3>
 		<span class="location">foto by @R_Fenn, yesterday</span>
-
 	</div>
+	<h3 class="price">Adult £ {{excursion.AdultPrice}}</h3>
+	
 
 	<span class="rating">{{excursion.rating.value}}/5 from {{excursion.rating.number}} reviews</span>
 
