@@ -98,8 +98,9 @@ angular.module('myApp.controllers', []).
   }])
 
   .controller('ExcursionSelect', ['$scope','$routeParams','$location', '$route', function($scope,$routeParams, $location, $route) {
-	var priceIndex = 0
-	$scope.price = PRICES[priceIndex];
+	var priceIndex = parseInt($routeParams['price']) ? parseInt($routeParams['price']) : 4;
+
+	$scope.price = PRICES[priceIndex]
 
 	$scope.type = $routeParams['type'] ? $routeParams['type'] : 'adventurous'
 
@@ -107,7 +108,7 @@ angular.module('myApp.controllers', []).
 		priceIndex = (priceIndex+1 >= PRICES.length) ? 0 : priceIndex+1;
 		$scope.price = PRICES[priceIndex];
 		$routeParams['price'] = priceIndex;
-		$location.url('/view1?'+ qs($routeParams))
+		$location.url('/excursions?'+ qs($routeParams))
 	}
 	$scope.typeClick = function(type){
 		var typeIndex = TYPES.indexOf($scope.type);
@@ -115,7 +116,7 @@ angular.module('myApp.controllers', []).
 		$scope.type = TYPES[typeIndex];
 
 		$routeParams['type'] = $scope.type;
-		$location.url('/view1?'+ qs($routeParams))
+		$location.url('/excursions?'+ qs($routeParams))
 	} 
   }]);
 
