@@ -6,7 +6,7 @@ var PRICES = [
 	{name: '£', min: 0, max:40},
 	{name: '££', min: 40, max:80},
 	{name: '£££', min: 80, max:null},
-	{name: 'any', min: null, max:null}
+	{name: 'any amount', min: null, max:null}
 ];
 
 /* Controllers */

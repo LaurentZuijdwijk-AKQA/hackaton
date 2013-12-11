@@ -1,17 +1,11 @@
 <div class="nav-bar"></div>
 <div class="inbody">
 <div class="homeWeather">
-	<h1>Good morning Martin. What would you like to do on this 28°C rainy day?</h1>
+	<h1 >Good morning Martin. What would you like to do on this 28°C rainy day?</h1>
 </div>
     <div  ng-include="'partials/select.html'"></div>
 
 	<div class="excursionsList">
-
-
-
-
-	<p>Number of matches {{excursions.length}}</p>
-
 	<div class="excursion"  ng-animate="'excursionsAnimate'" ng-repeat="excursion in excursions">
 		
 		<div class="image">
@@ -26,3 +20,11 @@
 	</div>
 </div>
 </div>
+
+<script>
+	$( document ).ready( function(){
+		$('homeWeather h1').removeClass('hide');
+		console.log('awefawe')
+	} )
+
+</script>

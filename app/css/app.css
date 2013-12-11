@@ -251,3 +251,12 @@ height: 1px;
  }        /* starting animations for leave */
 .excursion.ng-leave-active { } /* terminal animations for leave */
 
+h1{
+   -webkit-transition: 180ms linear all;
+  transition:180ms linear all;
+}
+.downArrow{
+  position: relative;
+  left: 128px;
+  margin-bottom: 13px;
+}
