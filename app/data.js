@@ -1030,5 +1030,44 @@
             "http://newmedia.thomson.co.uk/live/vol/0/ea36c2f9cb2ba3bcc8bcee57071f734d0bf58aa9/1080x608/web/CARIBBEANMEXICOMEXICOCON_MEXMEXICO-CARIBBEANCOASTMEXICORESORTSLAZEAWAYTHEHOURSONPUERTOMORELOSBEACH.jpg"
         ],
         "type": "relaxing, romantic"
-    }
+    },
+    {
+        "id" : 28,
+
+        "AdultPrice": "0",
+        "Attributes": "",
+        "ChildAgeMax": "",
+        "ChildAgeMin": "",
+        "ChildPrice": "",
+        "CountryName": "",
+        "CutoffDays": "",
+         "rating" :{
+            "value" : 1.3,
+            "number" : 25
+        },
+        "DestinationName": "Caribbean Coast",
+        "Duration": "",
+        "EndDate": "",
+        "ExcursionCode": "",
+        "ExcursionName": "Badger watching",
+        "Included": "",
+        "IsChildAllowed": false,
+        "OBJ_Description": [
+            {
+                "Text": "Go in search of some of Cancun's amazing wild life."
+            }
+        ],
+        "OperationDays": "daily",
+        "Ranking": "",
+        "ResortHelplineNumber": "",
+        "ResortName": "Cancun",
+        "StartDate": "",
+        "Url": "http://www.thomson.co.uk/destinations/attraction/Caribbean-Coast/Laze-away-the-hours-on-Puerto-Morelos-Beach-999514",
+        "images": [
+            "http://2.bp.blogspot.com/-Kl9U40ZTlBg/UK23OMOz1KI/AAAAAAAAAkQ/-pj9CUEDGs8/s1600/hissy-honey-badger.jpg"
+        ],
+        "type": "fun, adventurous"
+    }    
 ]
+
+

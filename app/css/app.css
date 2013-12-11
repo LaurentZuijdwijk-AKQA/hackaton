@@ -14,8 +14,8 @@
 
 body{
   font-family:'tuitypelightregular';
-  margin:20px 15px 15px 15px;
-  max-width: 290px;
+  margin-top:20px;
+  max-width: 320px;
 }
 
 .menu {
@@ -101,9 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   font-size: 10px;
   font-weight: normal;
 }
-body{
-  max-width:320px;
-}
+
 
 .homeWeather{
   width:320px;
@@ -119,6 +117,7 @@ body{
 .homeWeather .val{
   font-size:17px;
   position:absolute;
+  color:white;
 }
 
 
@@ -135,15 +134,43 @@ body{
   left:270px;
 }
 
-
 .homeWeather .weatherIcon{
   position:absolute;
   left:93px;
 }
 
 .btn, .btn:hover{
- background-color:#092a5f;
- color:white;
- border:none;padding: 3px;
-margin: 2px;
+  background-color:#092a5f;
+  color:white;
+  border:none;padding: 3px;
+  margin: 2px;
+}
+
+.view-enter, .view-leave {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+.view-enter {
+  opacity:0;
+  left:100px;
+  width:100%;
+  position:absolute;
+}
+.view-enter.view-enter-active {
+  left:0;
+  opacity:1;
+}
+
+.view-leave {
+  position:absolute;
+  left:0;
+  width:100%;
+  opacity:1;
+}
+.view-leave.view-leave-active {
+  left:-100px;
+  opacity:0;
 }
