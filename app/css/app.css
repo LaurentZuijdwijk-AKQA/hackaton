@@ -57,9 +57,6 @@ body{
 color: #092a5e;
 }
 
-
-
-
 .image{
   position: relative;
   display: inline-block;
@@ -74,11 +71,26 @@ color: #092a5e;
   display: inline-block;
   height:320px;
   overflow: hidden;
-width : 320px;
+  width : 320px;
 }
 .imagebig img {
-  height:320px;
+  height: 320px;
   margin-left:-100px;
+}
+.imgdetails{
+	height:1518px;
+	width:320px;
+	background-image : url("../img/exdet.png");
+	background-size : 320px 1518px;
+	margin-top:-10px;
+	position:relative;
+}
+.det-price{
+	color : #333333;
+	font-size: 40px;
+	text-align:center;
+	position:absolute;
+	width: 320px;
 }
 
 .image .overlay{
@@ -105,7 +117,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   padding: 7px;
   margin: 0px;
   color: white;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: normal;
 }
 .image .location,{
@@ -129,20 +141,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   font-size: 15px;
   font-weight: normal;
   display:block;
-width: 320px;
+  width: 320px;
 }
 
 
 .homeWeather{
   width:290px;
-
+  height:200px;
   position:relative;
-
+display:none;
 }
 .homeWeather h1{
-  font-size: 32px;
+  position: relative;
+  font-size: 20px;
   text-align: center;
-
+  top: 140px;
 }
 .homeWeather .val{
   font-size:17px;
@@ -178,6 +191,7 @@ width: 320px;
 }
 
 .excusionSelect{
+  background-color: rgba(0,0,0,0.3);
 }
 
 .view-enter, .view-leave {
@@ -250,17 +264,6 @@ width: 320px;
 	color : #fff;
 }
 
-hr{
-  border: 0;
-color: #092a5e;
-background-color: #092a5e;
-height: 1px;
-}
-
-.excursion p{
-  font-size:16px;
-  color:#092a5e;
-}
 
 .excursion.ng-enter, .excursion.ng-leave, .excursion.ng-show,  .excursion.ng-hide{
   -webkit-transition: 180ms linear all;
@@ -268,7 +271,7 @@ height: 1px;
   position:relative;
 }
 .excursion.ng-enter-stagger{
-  -webkit-transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
  
   /* in case the stagger doesn't work then these two values
@@ -294,12 +297,3 @@ height: 1px;
  }        /* starting animations for leave */
 .excursion.ng-leave-active { } /* terminal animations for leave */
 
-h1{
-   -webkit-transition: 180ms linear all;
-  transition:180ms linear all;
-}
-.downArrow{
-  position: relative;
-  left: 128px;
-  margin-bottom: 13px;
-}
