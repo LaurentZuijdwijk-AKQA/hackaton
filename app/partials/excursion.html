@@ -1,0 +1,17 @@
+<a href="/app/index.html#/excursions">back</a>
+<div class="excursion"  >
+	
+	<h2>{{excursion.ExcursionName}}</h2>
+	<div class="image"> 
+		<img ng-src="{{excursion.images[0]}}" />
+		<div class="overlay"></div>
+		<h3 class="price">Adult £ {{excursion.AdultPrice}}</h3>
+		<span class="location">foto by @R_Fenn, yesterday</span>
+
+	</div>
+
+	<span class="rating">{{excursion.rating.value}}/5 from {{excursion.rating.number}} reviews</span>
+
+	<p>{{excursion.OBJ_Description[0].Text  | limitTo:200 }}</p>
+
+ 

@@ -1,0 +1,126 @@
+/* app css stylesheet */
+
+
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.excursion h2, .excursion h2 a{
+  font-size:20px;
+  color:#fff;
+}
+
+
+
+
+.image{
+  position: relative;
+  display: inline-block;
+  max-width:320px;
+}
+.image img {
+    max-width:320px;
+}
+
+.image .overlay{
+width:100%;
+height:100%;
+ position: absolute;
+  top: 0px;
+  left: 0px;
+
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 37%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 94%, rgba(0,0,0,0.5) 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(37%,rgba(0,0,0,0)), color-stop(70%,rgba(0,0,0,0)), color-stop(94%,rgba(0,0,0,0.5)), color-stop(99%,rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 37%,rgba(0,0,0,0) 70%,rgba(0,0,0,0.5) 94%,rgba(0,0,0,0.5) 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0) 37%,rgba(0,0,0,0) 70%,rgba(0,0,0,0.5) 94%,rgba(0,0,0,0.5) 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 37%,rgba(0,0,0,0) 70%,rgba(0,0,0,0.5) 94%,rgba(0,0,0,0.5) 99%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 37%,rgba(0,0,0,0) 70%,rgba(0,0,0,0.5) 94%,rgba(0,0,0,0.5) 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+}
+
+.image .price{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(255, 170, 0, 0.9);
+  padding: 7px;
+  margin: 0px;
+  color: white;
+  font-size: 17px;
+  font-weight: normal;
+}
+.image .location{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 7px;
+  margin: 0px;
+  color: white;
+  font-size: 10px;
+  font-weight: normal;
+}
+body{
+  max-width:320px;
+}
+
+.homeWeather{
+  width:320px;
+  height:200px;
+  position:relative;
+}
+.homeWeather h1{
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  top: 140px;
+}
+.homeWeather .val{
+  font-size:17px;
+  position:absolute;
+}
+
+
+.homeWeather .val.top{
+  top:20px;
+}
+.homeWeather .val.bottom{
+  top:74px;
+}
+.homeWeather .val.left{
+  left:20px;
+}
+.homeWeather .val.right{
+  left:270px;
+}
+
+
+.homeWeather .weatherIcon{
+  position:absolute;
+  left:93px;
+}
