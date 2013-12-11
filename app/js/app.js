@@ -5,6 +5,7 @@
 angular.module('myApp', [
   'ngRoute',
   'ngAnimate',
+  'ngTouch',
   'ui.bootstrap',
   'myApp.filters',
   'myApp.services',

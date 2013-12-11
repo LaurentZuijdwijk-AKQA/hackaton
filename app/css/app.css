@@ -14,11 +14,14 @@
 
 body{
   font-family:'tuitypelightregular';
-  margin-top:20px;
   max-width: 320px;
   color:white;
 }
-
+.inbody{
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:80px;
+}
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -59,10 +62,10 @@ color: #092a5e;
 .image{
   position: relative;
   display: inline-block;
-  max-width:320px;
+  max-width:290px;
 }
 .image img {
-    max-width:320px;
+    max-width:290px;
 }
 
 .image .overlay{
@@ -105,9 +108,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 
 .homeWeather{
-  width:320px;
+  width:290px;
   height:200px;
   position:relative;
+display:none;
 }
 .homeWeather h1{
   position: relative;
@@ -181,6 +185,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   opacity:0;
 }
 
+.nav-bar {
+	height:70px;
+	background-image : url("../img/navbg.png");
+	background-size: 320px 70px;
+	position:fixed;
+	top:0;
+	left:0;
+	width:320px;
+	z-index:1500;
+}
+.back {
+	color:#fff;
+	font-size:14px;
+	margin-top:20px;
+	line-height: 50px;
+	display:block;
+	margin-left:15px;
+	text-transform:uppercase;
+}
+.back:hover{
+	text-decoration:none;
+	color : #fff;
+}
+
 
 .excursion.ng-enter, .excursion.ng-leave, .excursion.ng-show,  .excursion.ng-hide{
   -webkit-transition: 180ms linear all;
@@ -213,3 +241,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .excursion.ng-leave {
  }        /* starting animations for leave */
 .excursion.ng-leave-active { } /* terminal animations for leave */
+
